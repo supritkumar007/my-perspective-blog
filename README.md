@@ -2,8 +2,6 @@
 
 A modern, responsive blogging platform designed to share insights on technology, design, and software engineering.
 
-![My Perspective Blog](https://images.unsplash.com/photo-1499750310159-52f8f61525e9?auto=format&fit=crop&w=1200&q=80)
-
 ## Features
 
 - **Responsive Grid Layout**: 3-column grid for blog posts that adapts seamlessly to mobile devices
@@ -91,10 +89,6 @@ python -m http.server 8000
 # Using Node.js (npx)
 npx serve
 ```
-
-## Project Report
-
-This project was created as part of Software Engineering coursework. For detailed documentation including challenges, solutions, and code snippets, see [`project_report.md`](project_report.md).
 
 ## Learning Outcomes
 
