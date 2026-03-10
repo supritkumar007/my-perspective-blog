@@ -4,12 +4,6 @@ A modern, responsive blogging platform designed to share insights on technology,
 
 ![My Perspective Blog]
 
-## 🎥 Project Demo Video
-
-Watch a walkthrough of the blog website directly below.
-
-https://github.com/user-attachments/assets/my-perspective-blog.mp4
-
 ## Features
 
 - **Responsive Grid Layout**: 3-column grid for blog posts that adapts seamlessly to mobile devices
