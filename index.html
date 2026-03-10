@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Perspective - Personal Blog</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MyPerspective</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section d-flex align-items-center text-center text-white">
+        <div class="container fade-in-up">
+            <h1 class="display-3 fw-bold mb-3">Explore New Perspectives</h1>
+            <p class="lead mb-4">Thoughts, stories, and ideas on technology and design.</p>
+            <a href="#blog-grid" class="btn btn-primary btn-lg rounded-pill px-5">Start Reading</a>
+        </div>
+    </header>
+
+    <!-- Blog Grid Section -->
+    <section id="blog-grid" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold section-title">Latest Articles</h2>
+                <div class="section-line mx-auto"></div>
+            </div>
+            
+            <div class="row g-4">
+                <!-- Blog Post 1 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                           <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Coding Setup">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-primary mb-2">Technology</span>
+                            <h5 class="card-title fw-bold">The Future of Web Development</h5>
+                            <p class="card-text text-muted">Exploring the latest trends in AI-driven coding and modern frameworks like React and Vue.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Design Meeting">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-success mb-2">Web Development</span>
+                            <h5 class="card-title fw-bold">JavaScript Essentials</h5>
+                            <p class="card-text text-muted">Understanding the core concepts that power dynamic web applications.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                           <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Laptop Workspace">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-info text-dark mb-2">Software Engineering</span>
+                            <h5 class="card-title fw-bold">Software Development Life Cycle</h5>
+                            <p class="card-text text-muted">A structured approach to designing, building, and maintaining software.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Post 4 -->
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                            <img src="https://images.unsplash.com/photo-1550439062-609e15333143?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Abstract Code">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-warning text-dark mb-2">Web Development</span>
+                            <h5 class="card-title fw-bold">MERN Stack Overview</h5>
+                            <p class="card-text text-muted">Developing full-stack applications using MongoDB, Express, React, and Node.js.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Blog Post 5 -->
+                 <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                            <img src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Computer Accessories">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-danger mb-2">Software Engineering</span>
+                            <h5 class="card-title fw-bold">Software Testing Fundamentals</h5>
+                            <p class="card-text text-muted">Ensuring software quality through systematic testing techniques.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Blog Post 6 -->
+                 <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card blog-card h-100 border-0 shadow-sm">
+                        <div class="card-img-top-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&q=80" class="card-img-top" alt="Data Analysis">
+                        </div>
+                        <div class="card-body p-4">
+                            <span class="badge bg-secondary mb-2">Security & Best Practices</span>
+                            <h5 class="card-title fw-bold">Version Control with Git</h5>
+                            <p class="card-text text-muted">Tracking code changes and collaborating efficiently in teams.</p>
+                            <a href="#" class="read-more stretched-link text-primary fw-semibold text-decoration-none">Read More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2026 MyPerspective.</p>
+            <div class="mt-2">
+                <a href="#" class="text-white text-decoration-none mx-2 opacity-75 hover-opacity-100">Twitter</a>
+                <a href="#" class="text-white text-decoration-none mx-2 opacity-75 hover-opacity-100">LinkedIn</a>
+                <a href="#" class="text-white text-decoration-none mx-2 opacity-75 hover-opacity-100">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
