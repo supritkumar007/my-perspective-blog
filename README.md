@@ -2,13 +2,13 @@
 
 A modern, responsive blogging platform designed to share insights on technology, design, and software engineering.
 
-![My Perspective Blog](assets/blog-preview.png)
+![My Perspective Blog]
 
 ## 🎥 Project Demo Video
 
 Watch a walkthrough of the blog website directly below.
 
-<video src="https://github.com/user-attachments/assets/my-perspective-blog.mp4" controls width="900"></video>
+https://github.com/user-attachments/assets/my-perspective-blog.mp4
 
 ## Features
 
