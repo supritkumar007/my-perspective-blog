@@ -9,6 +9,7 @@ A modern, responsive blogging platform designed to share insights on technology,
 Watch a walkthrough of the blog website:
 
 https://github.com/user-attachments/assets/my-perspective-blog.mp4
+
 ## Features
 
 - **Responsive Grid Layout**: 3-column grid for blog posts that adapts seamlessly to mobile devices
@@ -118,4 +119,3 @@ npx serve
 ##  License
 
 This project is created for educational purposes.
-
